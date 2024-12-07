@@ -1,4 +1,4 @@
-# Project 7: Stock Market Analysis and Prediction Using Statistical and Machine Learning Methods
+# Stock Market Analysis and Prediction Using Statistical and Machine Learning Methods
 
 This project aims to analyze stock market data from the Tehran Stock Exchange (TSE) and predict stock returns using statistical and machine learning models. The project uses stock prices and indices over a two-year period, applying advanced techniques to understand trends, assess correlations, and develop predictive models for future performance.
 
