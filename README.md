@@ -33,7 +33,7 @@ $$
 r_i = \frac{P_i - P_{i-1}}{P_{i-1}}
 $$
    
-     where $$( P_{i} )$$ is the closing price on day $$( i )$$.
+where $$( P_{i} )$$ is the closing price on day $$( i )$$.
 
 2. **Probability Distribution**:  
    - The return distribution is analyzed using two approaches:  
@@ -145,12 +145,13 @@ These features were meticulously cleaned and preprocessed to ensure consistency 
 ### **Exploratory Analysis**  
 
 #### **1. Stock Returns Distribution**  
-To understand stock performance, I calculated daily returns using the formula:  
+To understand stock performance, I calculated daily returns using the formula:
+
 $$
 r_i = \frac{P_i - P_{i-1}}{P_{i-1}}
 $$
    
-     where $$( P_{i} )$$ is the closing price on day $$( i )$$. 
+where $$( P_{i} )$$ is the closing price on day $$( i )$$. 
 
 <img style="width:700px" src="https://github.com/user-attachments/assets/7229a317-8fca-4d76-aeac-48438e7db0e7">
 
