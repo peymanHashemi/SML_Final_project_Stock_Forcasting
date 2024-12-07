@@ -134,7 +134,7 @@ These features were meticulously cleaned and preprocessed to ensure consistency 
 
 | *Nan Amount* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/6f35805b-a9a0-46bd-be46-c70341267ba6"> |
+| <img style="width:200px" src="https://github.com/user-attachments/assets/6f35805b-a9a0-46bd-be46-c70341267ba6"> |
 
 | *Every Dataset shape* |
 |:--:|
@@ -152,12 +152,12 @@ $$
    
      where $$( P_{i} )$$ is the closing price on day $$( i )$$. 
 
-<img style="width:500px" src="https://github.com/user-attachments/assets/7229a317-8fca-4d76-aeac-48438e7db0e7">
+<img style="width:700px" src="https://github.com/user-attachments/assets/7229a317-8fca-4d76-aeac-48438e7db0e7">
 
 - **Probability Distribution**:  
    - Histograms and kernel density estimations revealed that stock returns were not perfectly symmetric, suggesting irregularities and skewness in market behavior.
 
- <img style="width:500px" src="https://github.com/user-attachments/assets/50f33dba-98c2-407f-acb8-c7aacfd796d2">
+ <img style="width:700px" src="https://github.com/user-attachments/assets/50f33dba-98c2-407f-acb8-c7aacfd796d2">
  
 - **Volatility Analysis**:  
    - Using rolling windows of 10, 20, and 50 days, I observed changes in the mean and variance of returns, identifying periods of high market volatility.
@@ -167,36 +167,36 @@ $$
   
 | *10-day Window* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/c0b23c42-9c02-4fd6-ac44-3e83e0aab9f3"> |
+| <img style="width:750px" src="https://github.com/user-attachments/assets/c0b23c42-9c02-4fd6-ac44-3e83e0aab9f3"> |
 
 * After Normalization:
 
 | *10-day Window* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/50f33dba-98c2-407f-acb8-c7aacfd796d2"> |
+| <img style="width:750px" src="https://github.com/user-attachments/assets/3e2b8e8f-2187-4eb3-ad7d-685bf5f971c2"> |
 
 | *20-day Window* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/50f33dba-98c2-407f-acb8-c7aacfd796d2"> |
+| <img style="width:750px" src="https://github.com/user-attachments/assets/300b0839-fa66-424f-9bfc-6261a85e8c17"> |
 
 | *50-day Window* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/50f33dba-98c2-407f-acb8-c7aacfd796d2"> |
+| <img style="width:750px" src="https://github.com/user-attachments/assets/b006dced-c269-48a3-b303-a89d1ab26e7c"> |
 
 
 #### Another Market (Tose Atlas Mofid):
 
 | *10-day Window* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/c15e4b92-9b0f-46bb-afc5-02628fc1bb87"> |
+| <img style="width:750px" src="https://github.com/user-attachments/assets/c15e4b92-9b0f-46bb-afc5-02628fc1bb87"> |
 
 | *20-day Window* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/48984fbf-cf11-446d-8b86-ce295763ab77"> |
+| <img style="width:750px" src="https://github.com/user-attachments/assets/48984fbf-cf11-446d-8b86-ce295763ab77"> |
 
 | *50-day Window* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/10a1c1ea-26bc-4522-95f5-1a15ee542ee3"> |
+| <img style="width:750px" src="https://github.com/user-attachments/assets/10a1c1ea-26bc-4522-95f5-1a15ee542ee3"> |
 
 ---
 
@@ -210,8 +210,8 @@ $$
 - **Cross-Correlation**:  
    - By comparing stock returns with external factors like gold prices and exchange rates, I found significant relationships, particularly during periods of economic uncertainty.  
 
-<img style="width:500px" src="https://github.com/user-attachments/assets/98186bf6-e107-42a7-8971-5ec43e3d5265">
-<img style="width:500px" src="https://github.com/user-attachments/assets/9489eaa5-94a7-4a37-be74-1ada6eccc62f">
+<img style="width:700px" src="https://github.com/user-attachments/assets/98186bf6-e107-42a7-8971-5ec43e3d5265">
+<img style="width:700px" src="https://github.com/user-attachments/assets/9489eaa5-94a7-4a37-be74-1ada6eccc62f">
 ---
 
 ### **Predictive Modeling**  
@@ -245,44 +245,44 @@ $$
 **Results**:  
 - Gradient boosting outperformed logistic regression, achieving an accuracy of ~77%.  
 - The confusion matrix revealed that the model was better at predicting positive trends than negative ones, which aligned with the dataset's class imbalance.
-
-<img style="width:500px" src="https://github.com/user-attachments/assets/e49e6755-7f8d-4ba5-bc0a-ac46cae5d300">
+![image]()
+<img style="width:700px" src="https://github.com/user-attachments/assets/311cb8da-98f5-4b03-bc8c-3245269bb3da">
 
 #### Logestic Regression:
 
 | *Best Results for 1-day Prediction* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/cb6e490f-4aec-457b-91b0-5e4047f54ad6"> |
+| <img style="width:700px" src="https://github.com/user-attachments/assets/e49e6755-7f8d-4ba5-bc0a-ac46cae5d300"> |
 
 | *Best Results for 2-day Prediction* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/257f99ec-ae36-457c-9a05-14598290c5aa"> |
+| <img style="width:700px" src="https://github.com/user-attachments/assets/cb6e490f-4aec-457b-91b0-5e4047f54ad6"> |
 
 | *Best Results for 3-day Prediction* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/0de447df-f244-428a-be9b-1ccee779cc7f"> |
+| <img style="width:700px" src="https://github.com/user-attachments/assets/257f99ec-ae36-457c-9a05-14598290c5aa"> |
 
 | *Best Results for 4-day Prediction* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/85eecf2b-c4da-4b24-a425-0f9bf4d2e043"> |
+| <img style="width:700px" src="https://github.com/user-attachments/assets/0de447df-f244-428a-be9b-1ccee779cc7f"> |
 
 #### Geadiant Boosting Tree:
 
-| *Best Results for 1-day Prediction* |
+| *GBT Best Results for 1-day Prediction* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/9ca64ddb-8de4-47cd-be38-4b637035b5ad"> |
+| <img style="width:700px" src="https://github.com/user-attachments/assets/85eecf2b-c4da-4b24-a425-0f9bf4d2e043"> |
 
-| *Best Results for 2-day Prediction* |
+| *GBT Best Results for 2-day Prediction* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/bff080b3-3e84-4acc-b56e-b4f222c36c9f"> |
+| <img style="width:700px" src="https://github.com/user-attachments/assets/9ca64ddb-8de4-47cd-be38-4b637035b5ad"> |
 
-| *Best Results for 3-day Prediction* |
+| *GBT Best Results for 3-day Prediction* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/dec24ec3-22ec-4bb7-8b11-b837c7e7b50b"> |
+| <img style="width:700px" src="https://github.com/user-attachments/assets/bff080b3-3e84-4acc-b56e-b4f222c36c9f"> |
 
-| *Best Results for 4-day Prediction* |
+| *GBT Best Results for 4-day Prediction* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/1ca43cf8-8f91-4f69-868b-fbe0b0fe44ed"> |
+| <img style="width:700px" src="https://github.com/user-attachments/assets/dec24ec3-22ec-4bb7-8b11-b837c7e7b50b"> |
 
 ---
 
@@ -295,11 +295,11 @@ $$
 - Using **Lasso Regression**, I assigned weights to each feature, with larger weights indicating higher importance.  
 - The model highlighted specific past days (e.g., the 3rd, 8th, and 10th) as the most predictive, providing valuable insights into market dependencies.
 
-<img style="width:500px" src="https://github.com/user-attachments/assets/a7f1c55a-a963-443b-bf2b-8ed5c0b229e2">
+<img style="width:700px" src="https://github.com/user-attachments/assets/a7f1c55a-a963-443b-bf2b-8ed5c0b229e2">
 
 | *Best Results for 10-day Prediction* |
 |:--:|
-| <img style="width:500px" src="https://github.com/user-attachments/assets/48171312-6c89-47d6-96b4-c572bb8e9eb5"> |
+| <img style="width:700px" src="https://github.com/user-attachments/assets/48171312-6c89-47d6-96b4-c572bb8e9eb5"> |
 
 ---
 
