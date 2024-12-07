@@ -325,9 +325,6 @@ $$
    - Lasso regression effectively reduced feature redundancy, simplifying the model without sacrificing accuracy.
 
 
-### For step-by-step results, check the [Stock MarKet Analysis and Prediction](https://github.com/peymanHashemi/Image-Alignment-With-SIFT-and-FREAK/blob/3275f2b70cc22a0a535b2ac5ba8f90ad379e15dd/SIFT.ipynb).
+### For step-by-step results, check the [Stock MarKet Analysis and Prediction](https://github.com/peymanHashemi/Stock-Market-Analysis-and-Prediction/blob/8441945beaf1ea1b11e113d34b6da517fa247531/Stock%20Market%20Analysis%20and%20Prediction.ipynb).
 
----
 
-### **Conclusion**  
-This project provided a comprehensive framework for analyzing stock market data and predicting returns. By combining statistical insights with machine learning models, I gained valuable experience in financial forecasting. While the models performed well for short-term predictions, they highlighted the challenges of long-term forecasting in volatile markets. Future improvements could include neural network-based models or integrating more granular external data for enhanced accuracy.
