@@ -28,15 +28,10 @@ Additionally, data for the TSE market index, gold prices, and exchange rates are
 #### **1. Probabilistic Analysis of Stock Returns**  
 1. **Return Calculation**:  
    Stock return for each day is calculated using the formula:  
-   \[
-   r_i = \frac{P_{i} - P_{i-1}}{P_{i-1}}
-   \]  
-   where \( P_{i} \) is the closing price on day \( i \).
-   The stock return is calculated as `r_i = (P_i - P_(i-1)) / P_(i-1)`.
-
- $$
- r_i = \frac{P_i - P_{i-1}}{P_{i-1}}
- $$
+   $$
+   r_i = \frac{P_i - P_{i-1}}{P_{i-1}}
+   $$
+   where $$( P_{i} )$$ is the closing price on day $$( i )$$.
 
 3. **Probability Distribution**:  
    - The return distribution is analyzed using two approaches:  
