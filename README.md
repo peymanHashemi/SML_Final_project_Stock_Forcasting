@@ -245,7 +245,7 @@ $$
 **Results**:  
 - Gradient boosting outperformed logistic regression, achieving an accuracy of ~77%.  
 - The confusion matrix revealed that the model was better at predicting positive trends than negative ones, which aligned with the dataset's class imbalance.
-![image]()
+
 <img style="width:700px" src="https://github.com/user-attachments/assets/311cb8da-98f5-4b03-bc8c-3245269bb3da">
 
 #### Logestic Regression:
